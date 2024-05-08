@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Poppins:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    background-image: url('https://t3.ftcdn.net/jpg/05/46/90/74/360_F_546907409_cLFhcTrnPrLO8g2qtysN4fSiE7y5Ltyd.jpg');
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+ body p {
+    font-size: 28px;
+    color: rgb(90, 215, 215);
+    font-family: cursive;
+}
+
+.newyear {
+    font-family: cursive;
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+h2 {
+
+    color: rgb(176, 27, 52);
+}
+
+.counter {
+    display: flex;
+    margin-top: 30px;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.box h2 {
+    font-size: 35px;
+    font-weight: 500;
+    color: teal;
+    font-family: cursive;
+}
+
+.box small {
+    font-size: 10px;
+    color: rgba(33, 125, 191, 0.702);
+}
+
+@media (min-width:576px) {
+    p {
+        font-size: 18px;
+    }
+
+    .newyear {
+        font-size: 70px;
+    }
+
+    .box {
+        width: 100px;
+        height: 70px;
+    }
+
+    .box h2 {
+        font-size: 30px;
+    }
+
+    .box small {
+        font-size: 15px;
+    }
+}
+
+@media (min-width:768px) {
+    p {
+        font-size: 25px;
+    }
+
+    .newyear {
+        font-size: 150px;
+    }
+
+    .box {
+        width: 150px;
+        height: 100px;
+    }
+
+    .box h2 {
+        font-size: 50px;
+    }
+
+    .box small {
+        font-size: 20px;
+    }
+}
